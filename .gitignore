@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.venv/
+venv/
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep raw if you want to commit; otherwise uncomment)
+# data/raw/
