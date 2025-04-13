@@ -32,3 +32,6 @@ def train_logistic_regression(df: pd.DataFrame, target_col: str = "Outcome", tes
     auc = roc_auc_score(y_test, y_proba) if y_proba is not None else None
 
     return pipe, report, auc
+
+# testing code
+
